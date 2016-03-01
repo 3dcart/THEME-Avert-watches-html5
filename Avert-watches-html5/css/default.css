@@ -1608,10 +1608,12 @@ body {
 }
 
 #FRAME_MENU {
-	float: right; 
-	text-align: right;
+	float: none; 
+	text-align: left;
 	width: 100%; 
 	margin: 0;
+	max-width:100%;
+	max-height:100%;
 }
 
 ul#desktopMenu {display: none;}
@@ -1686,6 +1688,8 @@ footer .col2 {
 .cbp-spmenu-left.cbp-spmenu-open {
 	left: 0;
     z-index: 1050;
+	overflow:scroll;
+	padding-bottom:50px;
 }
 .cbp-spmenu-right.cbp-spmenu-open {
 	right: 0;
