@@ -1035,6 +1035,7 @@ aside .module .div {
 #mainContent {
 	float: left;
 	width: 100%;
+	min-height:450px;
 }
 footer {
 	margin-top: 50px;
