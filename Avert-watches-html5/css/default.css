@@ -907,9 +907,8 @@ header .wrapper {
 }
 #FRAME_MENU {
 	float: right;
-	max-width: 55%;
+	max-width: 100%;
 	max-height: 30px;
-	overflow: hidden;
 }
 #cart {
 	background: transparent url(../images/cart.png) no-repeat left center;
